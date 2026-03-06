@@ -19,7 +19,7 @@ spring:
       max-request-size: 1000MB
   redis:
     host: xxx
-    port: xxx
+    port: 6379
 jwt:
   secretKey: YmV5b25kYWNjZXNzdG9rZW5zZWNyZXRrZXliZXlvbmRhY2Nlc3N0b2tlbnNlY3JldGtleWJleW9uZGFjY2Vzc3Rva2Vuc2VjcmV0a2V5
   expiration: 30
@@ -32,8 +32,8 @@ logging:
 
 aws:
   credentials:
-    access-key: xxx
-    secret-key: xxx
-  region: xxx
+    access-key: xxxxxx
+    secret-key: xxxxxx
+  region: ap-northeast-2
   s3:
-    bucket: xxx
+    bucket: eazy-order-service-product-img
